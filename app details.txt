@@ -1,0 +1,16 @@
+A simple stopwatch using html, css and js.
+*html: 
+>Created a class 'container' as parent body with a child class 'wrapper'. 
+> Created two sections i.e: tens and seconds with double digits. Also created a Start, Stop and Reset button.
+
+*css
+> conatiner position absolute and wrapper position relative and centered using method transform: translate(-50%, -50%);
+> created a circular dial using ::before property , added animation details
+> added animation details using keyframes
+
+*js
+>created variables for tens, seconds and buttons start, stop and reset.
+>created function startTimer() that handles the digits in tens and seconds
+>created 3 addEventListeners() for start,stop and reset buttons that call function startTimer() on click.
+>created a variable interval for setInterval() and clearInterval() to constantly call function startTimer() and particular intervals and terminate.
+
